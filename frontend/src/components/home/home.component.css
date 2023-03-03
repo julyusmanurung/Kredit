@@ -1,0 +1,206 @@
+label {
+    color: var(--text-color);
+}
+
+nav .navbar-brand h1 {
+    color: var(--text-color);
+}
+
+.table-title {
+    color: var(--text-color);
+    padding: 3rem 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+input[type="date"], select{
+    background-color: var(--section-color) !important;
+    color: var(--text-color) !important;
+}
+
+option {
+    color-scheme: dark;
+    padding: 1rem !important;
+}
+
+.wrapper {
+    height: 150px !important;
+}
+
+/* styling for table */
+.rdt_Table {
+    /*border-radius: 2rem !important;*/
+}
+
+.rdt_TableRow:nth-child(even) {
+    background-color: var(--sidebar-color);
+    color: var(--text-color);
+    border: none !important;
+}
+
+.rdt_TableRow:nth-child(even):hover,
+.rdt_TableRow:nth-child(odd):hover{
+    /*background-color: var(--table-row-odd-color);*/
+    /*color: var(--border-color);*/
+    background-color: var(--primary-color);
+    color: var(--border-color) !important;
+}
+
+.rdt_TableRow:nth-child(odd) {
+    background: var(--primary-color-light) !important;
+    color: var(--text-color);
+    border: none !important;
+}
+
+.rdt_TableCol {
+    background: var(--body-color) !important;
+    color: var(--text-color);
+    font-weight: bolder;
+    text-transform: none !important;
+}
+
+.rdt_TableCol:hover {
+    background-color: var(--primary-color);
+    color: var(--border-color) !important;
+}
+
+.rdt_TableHeadRow {
+    border: none !important;
+    min-height: 75px !important;
+    font-size: 14px;
+}
+
+.rdt_Pagination {
+    background-color: var(--primary-color) !important;
+    color: var(--text-color) !important;
+    border-radius: 20px;
+}
+
+.WQNxq {
+    border-radius: 0px !important;
+}
+
+.rdt_Table, .bzRnkJ{
+    background-color: var(--primary-color) !important;
+}
+
+button#pagination-next-page,
+button#pagination-previous-page,
+button#pagination-first-page,
+button#pagination-last-page{
+    color: var(--primary-color);
+}
+
+button#pagination-next-page:disabled,
+button#pagination-previous-page:disabled,
+button#pagination-first-page:disabled,
+button#pagination-last-page:disabled{
+    color: var(--body-color);
+}
+
+option {
+    color: var(--text-color) !important;
+}
+
+.data-table-extensions {
+    margin-top: 0.5rem !important;
+    padding: 0 !important;
+}
+
+.WQNxq {
+    margin-top: -5rem !important;
+}
+
+.data-table-extensions .data-table-extensions-filter,
+.data-table-extensions .data-table-extensions-action {
+    background-color: var(--primary-color);
+    display: flex !important;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.data-table-extensions .data-table-extensions-filter .filter-text {
+    outline: none;
+    border: none !important;
+}
+
+input {
+    color: var(--text-color) !important;
+    text-decoration: none !important;
+}
+
+/*.data-table-extensions-filter {*/
+/*    background-color: var(--sidebar-color);*/
+/*    padding: 5px;*/
+/*    border-radius: 1rem;*/
+/*    text-decoration: none !important;*/
+/*}*/
+
+.btnActionDiv {
+    background-color: var(--primary-color);
+    margin-top: 2rem !important;
+    width: 600px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.filter-title {
+    width: 100%;
+    font-weight: bolder;
+}
+
+.form-select-dark {
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg width='10' height='8' fill='none' xmlns='http:%2F%2Fwww.w3.org/2000/svg'><path d='M1 1l4 4 4-4' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>") !important;
+}
+
+.form-select-light {
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg width='10' height='8' fill='none' xmlns='http:%2F%2Fwww.w3.org/2000/svg'><path d='M1 1l4 4 4-4' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>") !important;
+}
+
+.table-wrapper {
+    background-color: var(--sidebar-color);
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+
+.form-select, .input-date {
+    box-shadow: var(--soft-shadow) !important;
+    border: none !important;
+}
+
+.lmSJmf, .bueHSC {
+    color: #fff !important;
+}
+
+/*.data-table-extensions > .data-table-extensions-action > button.download {*/
+/*    background-image: url("data:image/svg+xml;charset=utf, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill='#ffffff' d='M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z'/></svg>") !important;*/
+/*}*/
+
+/*.data-table-extensions > .data-table-extensions-action > button.print {*/
+/*    background-image: url("data:image/svg+xml;charset=utf-8, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill='#ffffff' d='M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zM432 248a24 24 0 1 1 0 48 24 24 0 1 1 0-48z'/></svg>") !important;*/
+/*}*/
+
+/*.data-table-extensions > .data-table-extensions-filter > .icon {*/
+/*    background-image: url("data:image/svg+xml;charset=utf-8, <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path fill='#ffffff' d='M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z'/></svg>") !important;*/
+/*}*/
+.data-table-extensions > .data-table-extensions-action > button.download {
+    background-image: url("../../assets/download-solid.svg") !important;
+    background-size: 60% !important;
+}
+
+/*.data-table-extensions > .data-table-extensions-action > button.download:hover {*/
+/*    background: transparent !important;*/
+/*    z-index: -999999 !important;*/
+/*}*/
+
+.data-table-extensions > .data-table-extensions-action > button.print {
+    background-image: url("../../assets/print-solid.svg") !important;
+    background-size: 60% !important;
+}
+
+.data-table-extensions > .data-table-extensions-filter > .icon {
+    background-image: url("../../assets/magnifying-glass-solid.svg") !important;
+    background-size: 75% !important;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --red-sinarmas: #ce0100;
+    --gray-sinarmas: #4F4F4F;
+    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    --linear-gradient: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--linear-gradient);
+    animation: gradient 5s ease infinite;
+    background-size: 400% 400%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.login-component form {
+    padding: 2rem;
+    background: #f5f5f5;
+    border-radius: 1rem;
+    width: 25rem;
+    box-shadow: var(--box-shadow);
+}
+
+.login-component form .form-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    flex-direction: column;
+}
+
+.login-component form .logo-bank-sinarmas {
+    width: 70%;
+    margin-bottom: 0.5rem;
+}
+
+.login-component form .form-label sup {
+    color: red;
+}
+
+.login-component form .btn-sinarmas {
+    background-color: var(--red-sinarmas);
+    color: #fff;
+    margin: 0.5rem 0;
+}
+
+.login-component form .btn-sinarmas:hover {
+    filter: brightness(80%);
+    color: #fff;
+}
+
+/*.swal2-confirm {*/
+/*    background-color: var(--red-sinarmas) !important;*/
+/*}*/
+
+input:focus {
+    outline: none !important;
+}

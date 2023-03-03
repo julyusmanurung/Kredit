@@ -1,0 +1,78 @@
+h1, h2 {
+    color: var(--text-color);
+}
+
+.container-fluid h1 {
+    font-weight: bolder !important;
+}
+
+.container-fluid h1 span {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.dashboard-summaries {
+    gap: 2rem;
+    margin-top: 2rem !important;
+}
+
+.dashboard-summaries .col-summaries {
+    background: var(--gradient-color);
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+/*.dashboard-summaries .d-flex:hover {*/
+/*    transform: translateY(-10%);*/
+/*}*/
+
+.dashboard-summaries label {
+    color: var(--text-color);
+}
+
+.dashboard-summaries .number {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.dashboard-summaries .desc {
+    width: 100%;
+}
+
+.dashboard-summaries .col .col {
+    padding-left: 1rem;
+}
+
+.dashboard-section {
+    background: var(--section-color);
+    border-radius: 20px;
+}
+
+.dashboard-section .section-title {
+    font-size: 1.5rem;
+}
+
+.dashboard-summaries img {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .dashboard-summaries img {
+        display: block;
+        width: 128px;
+        opacity: 0.75;
+    }
+}
+
+table th {
+    background: var(--body-color) !important;
+    color: var(--text-color);
+}
+
+table tr {
+    background: var(--primary-color-light) !important;
+    color: var(--text-color);
+}
+
+
